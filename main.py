@@ -14,10 +14,10 @@ from kivy.vector import Vector
 import json
 
 #Window.size = (100,100)
-#Window.size = (350, 720)
-#spacing = 5
+Window.size = (350, 720)
+spacing = 5
 
-spacing = 10
+#spacing = 10
 
 key_vectors = {Keyboard.keycodes['up']: (0, 1), Keyboard.keycodes['right']: (1, 0), Keyboard.keycodes['down']: (0, -1), Keyboard.keycodes['left']: (-1, 0)}
 
